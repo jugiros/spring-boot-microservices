@@ -1,0 +1,10 @@
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Panasonic', 800, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Sonic', 100, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Daewo', 500, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Oster', 300, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('TCL', 400, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Riviera', 1000, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('LG', 900, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Prima', 700, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Indurama', 600, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES ('Durex', 200, NOW());
