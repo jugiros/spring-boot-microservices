@@ -23,6 +23,8 @@ public class Producto implements Serializable {
     @Column(name = "create_at")
     @Temporal(TemporalType.DATE)
     private Date createAt;
+    @Transient
+    private Integer puerto;
 
     @Serial
     private static final long serialVersionUID = 12854306356845809L;
