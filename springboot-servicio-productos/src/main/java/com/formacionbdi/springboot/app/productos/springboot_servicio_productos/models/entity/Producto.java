@@ -1,18 +1,16 @@
 package com.formacionbdi.springboot.app.productos.springboot_servicio_productos.models.entity;
 
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.io.Serial;
-import java.io.Serializable;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Getter
 @Setter
 @Table(name = "productos")
-public class Producto implements Serializable {
+public class Producto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,8 +23,5 @@ public class Producto implements Serializable {
     private Date createAt;
     @Transient
     private Integer puerto;
-
-    @Serial
-    private static final long serialVersionUID = 12854306356845809L;
 
 }
